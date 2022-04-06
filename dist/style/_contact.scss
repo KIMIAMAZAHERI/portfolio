@@ -1,0 +1,39 @@
+#contact{
+    height: 700px;
+}
+.contact__line{
+    width: 100%;
+    height: 10vh;
+    background-color: #80848a;
+}
+.contact__title{
+    margin-top: 10vh;
+    margin-left: 32vh;
+    font-family: "Roboto",sans-serif;
+    font-size: 42px;
+}
+.contact__social{
+    border: none;
+    font-size: 25px;
+    margin-top: 4%;
+    margin-left:35vh ;
+    margin-bottom: 5vh;
+}
+.address{
+    margin-top: 7%;
+}
+
+.link{
+    list-style: none;
+    margin-left: 35vh;
+    margin-top: 3%;
+}
+.fa-linkedin-in{
+    padding: 3%;
+}
+.fa-twitter{
+    padding: 3%;
+}
+.fa-github{
+    padding: 3%;
+}

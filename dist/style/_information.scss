@@ -1,0 +1,42 @@
+.photo{
+   background-image: url(../image/web-development.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 200px;
+   color: #fff;
+   font-size: x-large;
+}
+.title{
+    margin-left: 38vh;
+}
+@media screen and (max-width:800px) {
+    .title{
+        font-size: 20px;
+        margin-left:0%;
+    }
+}
+.body_text{
+    margin: auto;
+    font-size: 25px;
+    max-width: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: "Roboto",sans-serif;
+    color: black;
+    font-style: normal;
+}
+@media screen and (max-width:500px){
+    .body_text{
+        width: 250px;
+        font-size: 22px;
+        margin-left: 0%;
+    }
+}
+.social-media{
+    text-align: center;
+}
+.social{
+    border: none;
+    font-size: 25px;
+}

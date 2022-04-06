@@ -1,0 +1,33 @@
+.about__line{
+    width: 100%;
+    height: 10vh;
+    background-color: #80848a;
+}
+.about__titel{
+    margin-top: 10vh;
+    margin-left: 32vh;
+    font-family: "Roboto",sans-serif;
+    font-size: 42px;
+}
+@media screen and (max-width:500px){
+    .about__titel{
+        font-size: 22px;
+        margin-left: 0%;
+    }
+}
+.about__text{
+    font-family: "Roboto",sans-serif;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 32vh;
+}
+@media screen and (max-width:500px){
+    .about__text{
+        font-size: 22px;
+        margin-left: 0%;
+    }
+}
+.end{
+    margin-top: 8%;
+    border: 4px solid #80848a;
+}

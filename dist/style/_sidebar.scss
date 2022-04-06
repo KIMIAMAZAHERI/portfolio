@@ -1,0 +1,81 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 30vh;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #5f6d7e;
+    color: #fff;
+  }
+  .img{
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    border: 4px solid #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+  .nav__ul{
+    list-style: none;
+    padding: 18px;
+    color: #fff;
+  }
+  .fa-user {
+    margin-right: 15px;
+    color: #fff;
+  }
+  .fa-graduation-cap{
+    margin-right: 15px;
+    color: #fff;
+  }
+  .fa-laptop-code{
+    margin-right: 15px;
+    color: #fff;
+  }
+  .fa-envelope{
+    margin-right: 15px;
+    color: #fff;
+  }
+  .nav__link{
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .nav__link:hover{
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .nav__link {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .nav__link{
+      text-align: center;
+      float: none;
+    }
+  }
