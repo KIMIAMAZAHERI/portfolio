@@ -54,8 +54,15 @@
         }
 .pic1{
     width: 50vh;
-    height: 200px;
+    height: 150px;
     text-align: center;
+}
+.hover{
+    text-align: center;
+    color: #80848a;
+}
+.hover:hover{
+    color: red;
 }
 .pro__card2{
     width: 60vh;
@@ -77,6 +84,6 @@
 }
 .pic2{
     width: 50vh;
-    height: 200px;
+    height: 150px;
     text-align: center;
 }
