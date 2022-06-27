@@ -18,7 +18,7 @@
 .projects__cards{
     margin-top: 2%;
     box-shadow: 3px inset;
-    display: flex;
+   
 }
 .pro__card1{
         width: 60vh;
@@ -87,3 +87,21 @@
     height: 150px;
     text-align: center;
 }
+.pro__card2{
+    width: 60vh;
+    height: 350px;
+    padding: 20px;
+    border: 3px solid #80848a;
+    box-shadow: 3px inset;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+@media screen and (max-width:500px){
+    .pro__card2{
+        margin-left: 0%;
+        font-size: 22px;
+    }
+}
+    
